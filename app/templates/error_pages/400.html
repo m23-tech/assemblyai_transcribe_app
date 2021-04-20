@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Invalid File Type{% endblock %}
+{% block body %}
+<div class="container">
+    <h1 class="mt-5">400 - Application Error</h1>
+    <p class="lead">
+        <p>Please Try Again =><a href="{{ url_for('index') }}">Link</a>
+    </p>
+    <h1></h1>
+{% endblock %}

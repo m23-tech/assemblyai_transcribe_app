@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h3>Transcription of File : {{filename}}</h3>
+  <div>
+    <hr>
+    <p class="lead">{{data}}</p>
+  </div>
+  <p><a href="{{ url_for('index') }}">Back</a>
+</div>
+{% endblock %}
