@@ -1,1 +1,1 @@
-# Assemblyai Transcribe App
+# AssemblyAi Transcribe App
